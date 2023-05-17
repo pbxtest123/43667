@@ -1,0 +1,19 @@
+{
+  "name": "default-theme",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest --dom"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "@vue/test-utils": "^2.3.2",
+    "happy-dom": "^9.18.3",
+    "nuxt": "^3.4.3",
+    "vitest": "^0.31.0"
+  }
+}
